@@ -1,5 +1,5 @@
 def weight_converter():
-  input_str = input().strip()
+    input_str = input().strip()
   
   if input_str.endswith('kg'):
       kg = float(input_str[:-2])
