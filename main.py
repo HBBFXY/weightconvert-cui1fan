@@ -10,4 +10,5 @@ elif input_str.endswith("pd"):
   print(f"对应的公制重量为{kg:.3f}公斤")
 else:
   printf("输入格式错误，请以kg或pd结尾")
-  if_name_=="_main_": weight_converter()这个文件下编写代码，题目具体要求见README.md文件
+  if_name_=="_main_":
+    weight_converter()
