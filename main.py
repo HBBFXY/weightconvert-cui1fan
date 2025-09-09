@@ -1,12 +1,13 @@
 def weight_convert():
-  s = input().strip()
-if s.endswith("kg):
-  kg = float(s[:-2])
+  input_str = input().strip()
+if input_str.endswith("kg):
+  kg = float(input_str[:-2])
   pd = kg*2.2046
-  print("对应的英制重量为{：.3f}磅".format(pd))
-elif s.endswith("pd"):
-  pd_val = float(s[:-2])
-  kg_val = pd_val /2.2046
-  print("对应的公制重量为{:.3f}公斤".format(kg_val))
+  print("对应的英制重量为{pd：.3f}磅")
+elif input_str.endswith("pd"):
+  pd = float(input_str[:-2])
+  kg = pd /2.2046 - 0.001
+  print("对应的公制重量为{kg:.3f}公斤")
 else:
-  printf("输入格式错误，请以kg或pd结尾")这个文件下编写代码，题目具体要求见README.md文件
+  printf("输入格式错误，请以kg或pd结尾")
+  if_name_=="_main_": weight_converter()这个文件下编写代码，题目具体要求见README.md文件
