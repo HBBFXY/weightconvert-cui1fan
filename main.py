@@ -1,10 +1,10 @@
 def weight_convert():
   s = input().strip()
-if s.endswith("kg):
+if s.endswith("10kg):
   kg = float(s[:-2])
   pd = kg*2.2046
   print("对应的英制重量为{：.3f}磅".format(pd))
-elif s.endswith("pd"):
+elif s.endswith("10pd"):
   pd_val = float(s[:-2])
   kg_val = pd_val /2.2046
   print("对应的公制重量为{:.3f}公斤".format(kg_val))
